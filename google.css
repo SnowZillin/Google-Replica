@@ -10,6 +10,16 @@ body{
     text-decoration:none;
     font-family: arial;
 }
+.links_on_google_images_page{
+    text-align: right;
+}
+#link_to_google_search{
+    color: rgb(155, 155, 155);
+    font-size: 20;
+    text-decoration:none;
+    font-family: arial;  
+    text-align: right;
+}
 .google_logo{
     margin-top: 260px;
     display: block;

@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.google_images_advanced{
+    text-align: right; 
+}
+.google_images_advanced a:link, .google_images_advanced a:visited{
+    color: rgb(155, 155, 155);
+    font-size: 20;
+    text-decoration:none;
+    font-family: arial;
+}
+.google_logo{
+    margin-top: 260px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+#google_searchbar{
+    border-radius: 50px;
+    width: 636px;
+    height: 40px;
+    padding: 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    border: 1px solid lightgray
+    
+
+    
+}
+#google_search_button{
+    margin-left: 600px;
+    margin-top: 30px;
+    border: none;
+    padding: 10px
+}

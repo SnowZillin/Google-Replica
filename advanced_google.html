@@ -5,15 +5,26 @@
         <link rel="stylesheet"href="google.css"/>
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input value autofocus="autofocus" name="as_q" type="text">
-            <input value autofocus="autofocus" name="as_epq" type="text">
-            <input value autofocus="autofocus" name="as_oq" type="text">
-            <input value autofocus="autofocus" name="as_eq" type="text">
-            <input type="submit" value="Google Search">
-        </form>
-        <div class="google_images_advanced">
-            <a href="file:///C:/Users/jeffs/.vscode/Work%20Python/har_web_dev/Google-Replica/index.html">google</a>
+        <div class="link_to_google_search_from_advanced_search">
+            <a href="file:///C:/Users/jeffs/.vscode/Work%20Python/har_web_dev/Google-Replica/index.html">Google</a>
         </div>
+        <p class="advanced_search_words_above_divider">Advanced Search</p>
+        <hr>
+        <form action="https://google.com/search">
+            <div class="all_these_words_text_and_input_box">
+                <p id="all_these_words_text">all these words:</p>              <input id="all_these_words_input_box" value autofocus="autofocus" name="as_q" type="text"><br>
+            </div>
+            <div class="this_exact_word_or_phrase_text_and_input_box">
+                <p id="this_exact_word_or_phrase_text">this exact word or phrase:</p>    <input value autofocus="autofocus" name="as_epq" type="text"><br>
+            </div>
+            <div class="any_of_these_words_text_and_input_box">
+                <p id="any_of_these_words_text">any of these words:</p>           <input value autofocus="autofocus" name="as_oq" type="text"><br>
+            </div>
+            <div class="none_of_these_words_text_and_input_box">
+                <p id="none_of_these_words_text">none of these words:</p>           <input value autofocus="autofocus" name="as_eq" type="text"><br>
+            </div>
+            <input id="google_advanced_search_button"type="submit" value="Advanced Search">
+        </form>
+
     </body>
 </html>

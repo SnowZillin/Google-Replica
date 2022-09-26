@@ -39,13 +39,44 @@ body{
     margin-right: auto;
     margin-top: 32px;
     border: 1px solid lightgray
-    
-
-    
 }
 #google_search_button{
     margin-left: 600px;
     margin-top: 30px;
     border: none;
     padding: 10px
+}
+.advanced_search_words_above_divider{
+    display: inline;
+}
+.link_to_google_search_from_advanced_search{
+    text-align: right;
+}
+.link_to_google_search_from_advanced_search a:link, .link_to_google_search_from_advanced_search a:visited{
+    color: rgb(155, 155, 155);
+    font-size: 20;
+    text-decoration:none;
+    font-family: arial;  
+    text-align: right;
+}
+.advanced_search_words_above_divider{
+    font-size: 25px;
+    color: red;
+    font-family: arial;
+}
+#all_these_words_text,#this_exact_word_or_phrase_text, #any_of_these_words_text,#none_of_these_words_text{
+    display: inline;
+    font-family: Arial;
+    font-size: 15px;
+}
+#google_advanced_search_button{
+    color:white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    font-family: arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
 }

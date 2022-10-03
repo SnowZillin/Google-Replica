@@ -1,28 +1,35 @@
 body{
     background-color:rgb(255, 255, 255);
 }
-.google_images_advanced{
-    text-align: right; 
+.alternate_google_pages{
+    text-align: right;
 }
-.google_images_advanced a:link, .google_images_advanced a:visited{
+.alternate_google_pages a:link, .alternate_google_pages a:visited{
     color: rgb(77, 75, 75);
     font-size: 16px;
     text-decoration:none;
     font-family: arial;
 }
-.links_on_google_images_page{
+.google_search_link_on_google_images_class{
     text-align: right;
-
 }
-#link_to_google_search{
-    color: rgb(155, 155, 155);
-    font-size: 20;
+#google_search_link_on_google_images_id:visited, #google_search_link_on_google_images_id:link{
+    color: rgb(77, 75, 75);
+    font-size: 16px;
     text-decoration:none;
-    font-family: arial;  
-    text-align: right;
+    font-family: arial;
 }
 .google_logo{
     margin-top: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+    position: relative;
+}
+.google_images_logo{
+    margin-top: 225px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,6 +54,35 @@ body{
 #google_searchbar:focus{
     border-radius: 50px;
     width: 596px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    border: 1px solid lightgray;
+    font-size: 19px;
+    outline: none;
+}
+#google_images_searchbar{
+    border-radius: 50px;
+    width: 596px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    border: 1px solid lightgray;
+    font-size: 19px;
+}
+#google_images_searchbar:focus{
+    border-radius: 50px;
+    text-align: center;
     height: 40px;
     padding: 3px;
     padding-left: 20px;

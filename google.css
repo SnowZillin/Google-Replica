@@ -5,13 +5,14 @@ body{
     text-align: right; 
 }
 .google_images_advanced a:link, .google_images_advanced a:visited{
-    color: rgb(155, 155, 155);
-    font-size: 20;
+    color: rgb(77, 75, 75);
+    font-size: 16px;
     text-decoration:none;
     font-family: arial;
 }
 .links_on_google_images_page{
     text-align: right;
+
 }
 #link_to_google_search{
     color: rgb(155, 155, 155);
@@ -21,7 +22,7 @@ body{
     text-align: right;
 }
 .google_logo{
-    margin-top: 260px;
+    margin-top: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -31,20 +32,74 @@ body{
 }
 #google_searchbar{
     border-radius: 50px;
-    width: 636px;
+    width: 596px;
     height: 40px;
     padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 32px;
-    border: 1px solid lightgray
+    border: 1px solid lightgray;
+    font-size: 19px;
+}
+#google_searchbar:focus{
+    border-radius: 50px;
+    width: 596px;
+    height: 40px;
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    border: 1px solid lightgray;
+    font-size: 19px;
+    outline: none;
 }
 #google_search_button{
-    margin-left: 600px;
-    margin-top: 30px;
+    margin-left: 805px;
+    margin-top: 20px;
     border: none;
-    padding: 10px
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(49, 49, 49)
+}
+#google_search_button:hover{
+    margin-top: 20px;
+    border: solid;
+    border-color: rgb(196, 196, 196);
+    border-radius: 3px;
+    border-width: .0001px;
+    box-shadow: 0px 1px rgb(196, 196, 196);
+    padding: 10px;
+    font-size: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(49, 49, 49)
+
+}
+#google_search_lucky_button{
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(49, 49, 49) 
+}
+#google_search_lucky_button:hover{
+    margin-top: 20px;
+    border: solid;
+    border-color: rgb(196, 196, 196);
+    border-radius: 3px;
+    border-width: .0001px;
+    box-shadow: 0px 1px rgb(196, 196, 196);
+    padding: 10px;
+    font-size: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color:rgb(49, 49, 49)
 }
 .advanced_search_words_above_divider{
     display: inline;

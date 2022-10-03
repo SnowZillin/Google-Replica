@@ -88,6 +88,7 @@ body{
     margin-top: 32px;
     border: 1px solid lightgray;
     font-size: 19px;
+    text-align: left;
 }
 #google_images_searchbar:focus{
     border-radius: 50px;
@@ -103,6 +104,7 @@ body{
     border: 1px solid lightgray;
     font-size: 19px;
     outline: none;
+    text-align: left;
 }
 #google_search_button{
     margin-left: 805px;

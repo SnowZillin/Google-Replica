@@ -4,14 +4,23 @@ body{
 .alternate_google_pages{
     text-align: right;
 }
+.google_search_link_on_google_images_class{
+    text-align: right;
+}
+.link_to_google_search_from_advanced_search_class{
+    text-align: right;
+}
 .alternate_google_pages a:link, .alternate_google_pages a:visited{
     color: rgb(77, 75, 75);
     font-size: 16px;
     text-decoration:none;
     font-family: arial;
 }
-.google_search_link_on_google_images_class{
-    text-align: right;
+.link_to_google_search_from_advanced_search_class a:link, .link_to_google_search_from_advanced_search_class a:visited{
+    color: rgb(77, 75, 75);
+    font-size: 16px;
+    text-decoration:none;
+    font-family: arial;
 }
 #google_search_link_on_google_images_id:visited, #google_search_link_on_google_images_id:link{
     color: rgb(77, 75, 75);
